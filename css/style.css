@@ -19,7 +19,7 @@ body{
     background: rgba(0, 0, 0, .8);
 }
 .button_container{
-    margin-left: 47%;
+    justify-content: center;
     display: flex;
     flex-direction: row;
     gap: 3% ;
