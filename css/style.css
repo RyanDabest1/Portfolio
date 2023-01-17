@@ -27,4 +27,20 @@ body{
 .fa-facebook:hover{
     color: #4267B2;
 }
+.s1{
+    background: white;
+    color: black;
+}
+.s1 h2{
+    background: #00CFCF;
+background: linear-gradient(to right, #00CFCF 27%, #DB78FF 52%, #178BFF 55%, #CF809B 84%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 50px;
+
+}
+.s2 h2{
+    text-align: left !important;
+    margin-left: 5em;
+}
 
