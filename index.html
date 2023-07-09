@@ -15,31 +15,12 @@
         <div class="section s1">
             <h2 class="title">Hello There!</h2>
         </div>
-            <div class="section s2">
-                <div class="slide">
-                    <h2>How Are You?</h2>
-                </div>
-            
-                <div class="slide">
-                    <h2>Yes, I'm Talking To You!</h2>
-                </div>
-
-                <div class="slide">
-                    <h2>Nice to meet You</h2>
-                </div>
-
-                <div class="slide">
-                    <h2>Scroll Down To See More!</h2>
-                </div>
-                
-        
-        </div>
             <div class="section s3">
                 <div class="First-left">
-                    <h2>
+                    <h2 class= "title2">
                         I am Ryan
                     </h2>
-                    <p>Sup Im a Web Dev</p>
+                    <p class="description">A self taught web developer (Still Learning) </p>
                     <div class="button_container">
                         <div class="button">
                             <a href="https://github.com/RyanDabest1" class="btn-1" style="color:white; text-decoration: none;"><i class="fa-brands fa-github"></i></a>
@@ -47,6 +28,9 @@
                         <div class="button">
                             <a href="https://www.facebook.com/RyanIsC00L/" class="btn-1" style="color:white; text-decoration: none;"><i class="fa-brands fa-facebook"></i></a>
                         </div>
+                    </div>
+                    <div >
+                        <button class="readMore"><a href="" class="btn">Click to read more about me</a></button>
                     </div>
                     
                 </div>
@@ -60,12 +44,14 @@
     new fullpage('#fullpage', {
 	//options here
 	scrollHorizontally: true,
-    navigation : true,
+    navigation : false,
     scrollingSpeed: 600,
     controlArrows : false,
-    slidesNavigation : true,
+    slidesNavigation : false,
+    
 
 });
 </script>
+<script src="./js/main.js"></script>
 </body>
 </html>

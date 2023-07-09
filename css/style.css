@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;600;700;800;900&display=swap');
 body{
     font-family: "Lexend Deca", sans-serif;
-    color : white !important;
+    color : white;
     background-color: black;
     text-align: center;
 }
@@ -12,9 +12,7 @@ body{
     border-radius: 5px;
     font-size: 30px;
 }
-.btn-1{
-    background: rgba(0, 0, 0, .8);
-}
+
 .button_container{
     justify-content: center;
     display: flex;
@@ -36,7 +34,37 @@ background: linear-gradient(to right, #00CFCF 27%, #DB78FF 52%, #178BFF 55%, #CF
 font-size: 50px;
 
 }
+.btn-1{
+}
 .s2 h2{
     text-align: left !important;
     margin-left: 5em;
+}
+.readMore > a{
+    text-decoration-line: none;
+    color: white;
+}
+.readMore {
+    margin: 15px;
+    border: 2px solid white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.colorChange {
+    background: white;
+    -webkit-transition: all 0.9s ease-in-out;
+
+}
+.textColorChange{
+    color: black !important;
+}
+.emojiColorChange{
+    color : black;
+}
+
+.s3{
+    -webkit-transition: all 0.9s ease-in-out;
+
 }
