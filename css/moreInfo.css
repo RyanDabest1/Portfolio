@@ -49,20 +49,26 @@ width: 75%;
 display: flex;
 -webkit-transition: all 0.2s ease-in;
 box-sizing: border-box;
-
-
 }
 
+
 .mainSecChanged{
-background: rgba(44, 189, 251, 0.437);
+background: rgba(255, 255, 255, 0.437);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(8.7px);
 -webkit-backdrop-filter: blur(8.7px);
-border: 1px solid rgba(0, 125, 179, 0.63);
+border: 1px solid rgba(0, 0, 0, 0.63);
 -webkit-transition: all 0.1s ease-in;
 box-sizing: border-box;
-
+box-shadow:
+1px 1px #373737,
+2px 2px #373737,
+3px 3px #373737,
+4px 4px #373737,
+5px 5px #373737,
+6px 6px #373737;
+transform: translateX(-3px);
 
 }
 .gif1{
@@ -70,12 +76,14 @@ box-sizing: border-box;
     border-radius: 5px;
     width: 39%;
 
+
 }
 .mainText1{
     color: white;
     padding: 3%;
     font-size: large;
     -webkit-transition: all 0.1s ease-in;
+
 }
 .mainText1Changed{
     color: black;
@@ -124,7 +132,7 @@ box-sizing: border-box;
     border-radius: 0.25rem;
 }
 .title1{
-    margin-top: 1%;
+    margin-top: 3%;
     margin-right: 45%;
     margin-left: 45%;
     padding: 0.25rem 0.5rem;
