@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;600;700;800;900&display=swap');
+body{
+    font-family: "Lexend Deca", sans-serif;
+    color : white;
+    background-color: black;
+    text-align: center;
+}
+.fp-watermark {
+    display: none !important;
+}
+.button{
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.button_container{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 3% ;
+}
+.fa-facebook:hover{
+    color: #4267B2;
+}
+.s1{
+    background: white;
+    color: black;
+}
+.s1 .title{
+    background: #00CFCF;
+background: linear-gradient(to right, #00CFCF 27%, #DB78FF 52%, #178BFF 55%, #CF809B 84%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 50px;
+
+}
+.btn-1{
+}
+.s2 h2{
+    text-align: left !important;
+    margin-left: 5em;
+}
+.readMore > a{
+    text-decoration-line: none;
+    color: white;
+}
+.readMore {
+    margin: 15px;
+    border: 2px solid white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.colorChange {
+    background: white;
+    -webkit-transition: all 0.9s ease-in-out;
+
+}
+.textColorChange{
+    color: black !important;
+}
+.emojiColorChange{
+    color : black;
+}
+
+.s3{
+    -webkit-transition: all 0.9s ease-in-out;
+
+}
