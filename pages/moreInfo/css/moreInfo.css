@@ -228,16 +228,7 @@ margin-left: 3%;
     margin-right: 38%;
     margin-left: 39%;
     }
-    .project1{
-        width: 85%;
-        margin-left: 4%;
-    }
-    .project2,.project4{
-        width: 85%;
-
-    }
-    .project3{
-        width: 63%;    }
+   
 }
 @media screen and (max-width: 837px){
     .mainText1{
