@@ -172,19 +172,37 @@ transform: translateX(-3px);
 .projectsContainer{
     display:flex;
     gap: 3px;
+    flex-wrap: wrap;
 }
 .project1{
-    width: 60%;
-    margin-bottom: 10%;
+   
+    width: 39%;
+    margin-bottom: 1%;
     margin-top: 3%;
-    margin-left: 12%;
+    margin-left: 19%;
     border-radius: 1em;
+
 
 }
 .project2{
-    width: 60%;
+    width: 39%;
     margin-top: 3%;
     border-radius: 1em;
+
+}
+.project3{
+    margin-left: 20%;
+    width: 34%;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+.project4{
+    width: 39%;
+    margin-top: 3%;
+    border-radius: 1em;
+    margin-left: 10%;
+margin-bottom: 10%;
+margin-left: 3%;
 
 }
 
@@ -212,12 +230,14 @@ transform: translateX(-3px);
     }
     .project1{
         width: 85%;
-        margin-left: 6%;
+        margin-left: 4%;
     }
-    .project2{
+    .project2,.project4{
         width: 85%;
 
     }
+    .project3{
+        width: 63%;    }
 }
 @media screen and (max-width: 837px){
     .mainText1{
@@ -234,10 +254,19 @@ transform: translateX(-3px);
         margin-left: 14%;
         margin-bottom: 0%;
     }
-    .project2{
+    .project2, .project4{
         width: 74%;
         margin-left: 14%;
-        margin-bottom: 10%;
+    }
+    .project4{
+        width: 74%;
+        margin-left: 14%;
+        margin-bottom: 20%;
+    }
+    .project3{
+        width: 60%;
+    margin-left: 20%;       
+
     }
      
 }
@@ -253,7 +282,7 @@ transform: translateX(-3px);
         width: 74%;
         margin-left: 14%;
     }
-    .project2{
+    .project2, .project4{
         width: 74%;
         margin-left: 14%;
 
@@ -274,6 +303,7 @@ transform: translateX(-3px);
         content: url(../img/Codingpfp.jpeg);
         width: 31%;
         border-radius: 5em;
+        height: 10%;
     }
     .title1{
     margin-right: 40%;
